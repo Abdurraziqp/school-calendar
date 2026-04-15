@@ -1,17 +1,24 @@
-:root {
-    height:1000px;
-    margin:40px 40px 30px 30px;
+.page{
+    width: 210mm;
+    min-height:297mm;
+    margin: 20px auto;
+    padding: 20px;
+
     border: 5px dotted green;
-   
-    padding-left:50px;
-    padding-right:50px;
+    box-sizing: border-box;
 }
+.page-inner{
+    border: 3px solid black;
+    padding:20px;
+}
+
 body {
-    height:900px;
-    width:1000px;
-    padding:20px 20px 20px 20px;
+    width:210mm; /* A4 width */
+    min-height: 297mm; /* A4 height */
+    padding: 20px;
     border: solid black;
-    border-collapse: collapse;
+    margin: 0 auto; /* center on the screen */
+    box-sizing: border-box;
 
 }
 #month{

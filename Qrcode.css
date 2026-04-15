@@ -1,0 +1,16 @@
+#qrcode-container{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-inbetween;
+    text-align: right; /*center everything */
+}
+#qrcode-container p {
+    margin-bottom: 5px 0;
+    font-weight: bold;
+}
+
+#qrcode{
+    display: inline-block;
+    
+}
+

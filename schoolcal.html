@@ -4,8 +4,12 @@
         <meta charset="UTF-8">
         <title>2026 sc calender</title>
         <link href="schoolstyle.css" rel="stylesheet">
+        <link href="Qrcode.css" rel="stylesheet">
         </head>
+        
     <body>
+        <div class="page">
+            <div class="page-inner">
         <h1 id=month>April 2026</h1>
         <section> 
             <table>
@@ -74,9 +78,21 @@
         </section>
         <section>
             <p><span>class Toom Requests:</span><span>Paper Towels<br>Hand Solp/santizer<br> Marbles, Gems-Jewels for Maths!</span></p>
-            <p>Support our classroom by shopping our Amazon wish Wish list!</p>
+            <!-- Added a small lable-->
+                <div id="qrcode-container">
+                    <p>
+                        <em>Support</em> our classroom by shopping our Amazon wish list!
+                    </p>
+                    <p>Scan me</p>
+                    <div id="qrcode"></div>
+                </div>
         </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+        <script src="qrcode.js"></script>
+          </div>
+        </div>
     </body>
+    
 
 </html>
     
